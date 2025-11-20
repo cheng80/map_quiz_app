@@ -34,7 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  get: ^4.7.2 #GetX
+  # get: ^4.7.2 #GetX
   # geocoding: ^4.0.0 #geocoding :  주소 <-> 위도,경도 변환
   # geolocator: ^14.0.2 #geolocator : 위치 정보 가져오기(GPS)
   # google_maps_flutter: ^2.6.0 #google_maps_flutter : 구글 지도
