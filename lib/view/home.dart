@@ -93,6 +93,24 @@ class _HomeState extends State<Home> {
               ],
             ),
           ),
+
+          Marker(
+            width: 150.0,
+            height: 80.0,
+            point: latlng.LatLng(_initLocation.latitude, _initLocation.longitude),
+            child: Column(
+              children: [
+                Text( 
+                  "중심점", 
+                  style: 
+                    TextStyle(fontSize: 10, fontWeight: FontWeight.bold, color: Colors.red)
+                  ),
+                Icon(Icons.pin_drop, size: 50, color: Colors.red,),
+
+              ],
+            ),
+          ),
+
         ]),
         
       ],
