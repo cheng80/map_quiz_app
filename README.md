@@ -1,16 +1,13 @@
 # map_quiz_app
 
-A new Flutter project.
+지도 관련 플러그인들을 활용한 4곳의 마커를 표시 하는 앱
 
-## Getting Started
+flutter_map: ^8.2.2 ( flutter_map : 오픈스트리트맵 )
+latlong2: ^0.9.1 ( latlong2 : 위도,경도 좌표 클래스 => 지도를 현 위치로 이동할 때 사용 )
 
-This project is a starting point for a Flutter application.
+혜화문 : 37.5878892 / 127.0037098
+흥인지문 : 37.5711907 / 127.009506
+창의문 : 37.5926027 / 126.9664771
+숙정문 : 37.5956584 / 126.9810576
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
